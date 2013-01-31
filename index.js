@@ -1,4 +1,5 @@
 var Drawable = require('drawable'),
+    Canvas = require('canvas'),
     is = require('helpers').is;
 
 function Renderer() {

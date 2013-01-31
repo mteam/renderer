@@ -2,6 +2,7 @@
   "name": "renderer",
   "repo": "mteam/renderer",
   "dependencies": {
+    "mteam/canvas": "*",
     "mteam/drawable": "*",
     "mteam/helpers": "*"
   },
