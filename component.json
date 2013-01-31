@@ -1,0 +1,11 @@
+{
+  "name": "renderer",
+  "repo": "mteam/renderer",
+  "dependencies": {
+    "mteam/drawable": "*",
+    "mteam/helpers": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
