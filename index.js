@@ -6,6 +6,8 @@ function Renderer() {
   this.canvas = null;
 }
 
+module.exports = Renderer;
+
 // --- canvas switching ---
 
 Renderer.prototype.getCanvas = function() {
