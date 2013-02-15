@@ -2,8 +2,8 @@ var Drawable = require('drawable'),
     Canvas = require('canvas'),
     is = require('helpers').is;
 
-function Renderer() {
-  this.canvas = null;
+function Renderer(canvas) {
+  this.canvas = canvas || null;
 }
 
 module.exports = Renderer;
