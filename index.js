@@ -78,7 +78,7 @@ Renderer.prototype = {
   // --- drawing objects ---
 
   draw: function(obj, x, y) {
-    if (obj instanceof Drawable) {
+    if (obj.draw != null) {
       obj.draw(this.ctx(), x, y);
     } else {
       throw new Error('this object is not drawable');
@@ -86,7 +86,7 @@ Renderer.prototype = {
   },
 
   drawRect: function(obj, rect, x, y) {
-    if (obj instanceof Drawable) {
+    if (obj.drawRect != null) {
       obj.drawRect(this.ctx(), rect, x, y);
     } else {
       throw new Error('this object is not drawable');
